@@ -6,6 +6,7 @@ const project = new cdktf.ConstructLibraryCdktf({
   defaultReleaseBranch: 'main',
   name: 'cdktf-k8s-plus',
   repositoryUrl: 'git@github.com:MonoidDev/cdktf-k8s-plus.git',
+  depsUpgrade: false,
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
