@@ -1,5 +1,25 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    },
+    {
+      "matchPackagePrefixes": [
+        "@cdktf",
+        "cdktf",
+        "constructs"
+      ],
+      "groupName": "cdk"
+    }
+  ],
+  "reviewers": ["sandy2008", "AustinZhu"]
 }
