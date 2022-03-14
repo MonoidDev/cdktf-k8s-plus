@@ -34,7 +34,7 @@ jobs:
           github.ref }} | cut -f1)"
       - name: Upload artifact
         if: ${{ steps.git_remote.outputs.latest_commit == github.sha }}
-        uses: actions/upload-artifact@v2.1.1
+        uses: actions/upload-artifact@v3.0.0
         with:
           name: dist
           path: dist
