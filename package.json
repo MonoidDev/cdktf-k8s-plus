@@ -41,7 +41,7 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.3",
     "jest": "^27.4.5",
-    "jest-junit": "^13",
+    "jest-junit": "^16.0.0",
     "jsii": "^1.49.0",
     "jsii-diff": "^1.49.0",
     "jsii-docgen": "^4.2.18",
